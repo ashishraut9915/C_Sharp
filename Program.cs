@@ -18,7 +18,7 @@ namespace CSharp_Programming
             }
             else
             {
-                Console.WriteLine("Employee is Present");
+                Console.WriteLine("Employee is Absent");
             }
         }
     }
