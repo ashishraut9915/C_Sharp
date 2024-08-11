@@ -11,12 +11,12 @@ namespace CSharp_Programming
             int IS_FULL_TIME = 2;
             int EMP_RATE_PER_HOUR = 20;
             //Variables
-            int empHrs 0;
-            int empwage 0;
+            int empHrs = 0;
+            int empWage = 0;
             Random random = new Random();
             //Computation
             int empCheck= random.Next(0, 3);
-            if (empCheck=- IS_PART_TIME)
+            if (empCheck= IS_PART_TIME)
             { 
                 empHrs = 4;
             }
